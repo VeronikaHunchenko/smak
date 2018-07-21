@@ -1,0 +1,32 @@
+.header {
+	background-color: #122a2f;
+}
+.layout-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}	
+.logo {
+	padding: 15px 10px 20px 0;
+}
+.logo > a {
+	display: block;
+}
+.navbar-nav {
+	display: inline-flex;
+	margin-bottom: 0;
+	font-size: 14px;
+}
+.navbar-nav > li  {
+	display: flex;
+	align-items: center;
+}
+.list-style {
+	content: '';
+	width: 5px;
+	height: 5px;
+	background-color: #ffe600;
+	top: 5%;
+
+
+}

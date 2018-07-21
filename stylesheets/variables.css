@@ -1,0 +1,48 @@
+ @font-face {
+    font-family: Oswald; 
+    src: url(fonts/Oswald-Bold.ttf); 
+    src: url(fonts/Oswald-Light.ttf);
+    src: url(fonts/Oswald-Medium.ttf);
+    src: url(fonts/Oswald-Regular.ttf);
+   }
+
+
+:root {
+  --global-font-family:                            Oswald, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --global-font-size:                              16px;
+  --global-line-height:                            1.56;
+
+  --global-color:                                  #707070;
+  --global-muted-color:                            #999;
+
+  --global-bright-color:                           #ffe600;
+
+  --global-link-color:                             #515151;
+  --global-link-hover-color:                       #ffe600;
+
+  --global-inverse-color:                          #fff;
+
+  --global-background:                             #fbfbfb;
+
+  --global-inverse-background:                     #131a1d; /* dark section*/
+
+  --global-dark-background:                        #131316; /*second gallery team, footer*/
+  --global-primary-background:                     #11343a; /* hero empty section, images section*/
+  --global-secondary-background:                   #122a2f; /* header, hero section*/
+  
+  --global--muted-background:                      #394948; /* gallery chess section*/
+
+  --global-success-background:                     #32d296;
+  --global-warning-background:                     #faa05a;
+  --global-danger-background:                      #f0506e;
+
+  --global-border-width:                           1px;
+  --global-border:                                 #ffe600;
+
+  --global-margin:                                 20px;
+
+  --global-gutter:                                 30px;
+
+  --global-control-height:                         25px;
+}
+

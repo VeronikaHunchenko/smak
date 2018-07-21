@@ -1,0 +1,135 @@
+:root {
+  --button-color: #fff;
+  --button-inverse-color: #131316;
+  --button-background: #ffe600;
+  --button-font-family: inherit;
+  --button-font-size: 20px;
+  --button-font-size-small: 15px;
+  --button-font-weight: 600;
+  --button-padding: 13px 35px;
+  --button-padding-big: 13px 45px;
+  --button-height: var(--global-control-height);
+
+  --button-color-hover: #ffe600;
+  --button-background-hover: #131316;
+
+  --button-color-focus: #ffe600;
+  --button-background-focus: #131316;
+
+  --button-color-active: #ffe600;
+  --button-background-active: #131316;
+
+  --button-inverse-color-hover: #ffe600;
+  --button-inverse-background-hover: #11343a;
+
+  --button-inverse-color-focus: #ffe600;
+  --button-inverse-background-focus: #11343a;
+
+  --button-inverse-color-active: #ffe600;
+  --button-inverse-background-active: #11343a;
+  
+  --button-scroll-color-hover: #ffe600;
+  --button-scroll-background-hover: #131316;
+
+
+}
+
+
+button,
+input[type="button"],
+input[type="submit"],
+.button, 
+.button-inverse,
+.button-big, 
+.button-scroll {
+  margin: 0;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  user-select: none;
+  border-radius: 0;
+  overflow: visible;
+  font-family: inherit;
+  text-transform: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: var(--button-font-weight);
+  padding: var(--button-padding);
+  font-family: var(--button-font-family);
+  font-size: var(--button-font-size);
+  min-height: var(--button-height);
+  text-decoration: none;
+  background: var(--button-background);
+  color: var(--button-color);
+}
+
+.button:not(:disabled) {
+  cursor: pointer
+}
+
+.button::-moz-focus-inner {
+  border: 0;
+  padding: 0
+}
+
+.button:hover {
+  text-decoration: none;
+  background: var(--button-background-hover);
+  color: var(--button-color-hover);
+}
+
+.button:focus {
+  outline: none;
+  background: var(--button-background-focus);
+  color: var(--button-color-focus);
+}
+
+.button:active,
+.button.is-active {
+  background: var(--button-background-active);
+  color: var(--button-color-active);
+}
+
+.button:disabled {
+  pointer-events: none;
+  opacity: 0.45;
+}
+.button-inverse {
+  background: var(--button-background);
+  color: var(--button-inverse-color);
+}
+.button-inverse:hover {
+  text-decoration: none;
+  background: var(--button-inverse-background-hover);
+  color: var(--button-inverse-color-hover);
+}
+.button-inverse:focus {
+  text-decoration: none;
+  background: var(--button-inverse-background-hover);
+  color: var(--button-inverse-color-hover);
+}
+.button-inverse:active {
+  text-decoration: none;
+  background: var(--button-inverse-background-hover);
+  color: var(--button-inverse-color-hover);
+}
+.button-big {
+  padding: var(--button-padding-big);
+}
+.button-scroll {
+  padding: 23px 22px;
+}
+.button-scroll:hover {
+  background: var(--button-scroll-background-hover);
+  color: var(--button-scroll-color-hover);
+}
+.button-scroll:focus {
+  background: var(--button-scroll-background-hover);
+  color: var(--button-scroll-color-hover);
+}
+.button-scroll:active {
+  background: var(--button-scroll-background-hover);
+  color: var(--button-scroll-color-hover);
+}

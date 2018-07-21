@@ -1,0 +1,13 @@
+.layout-portfolio {
+	display: flex;
+	justify-content: center;
+}
+.layout-portfolio > .layout-item {
+	
+}
+.nav-portfolio {
+	display: flex;
+	justify-content: center;
+	color: #515151;
+	font-weight: normal;
+}
