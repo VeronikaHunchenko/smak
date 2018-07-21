@@ -1,9 +1,16 @@
+.portfolio {
+	background-color: #fff;
+}
 .layout-portfolio {
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
 }
 .layout-portfolio > .layout-item {
-	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 .nav-portfolio {
 	display: flex;
@@ -11,3 +18,92 @@
 	color: #515151;
 	font-weight: normal;
 }
+.gallery {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+    /* SuperBox */
+.superbox {
+	font-size: 0;
+}
+.superbox-list {
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+	width:16.666666%;
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+    overflow: hidden;
+    font-size: 16px;
+
+}
+.superbox-img {
+	max-width:100%;
+	width:100%;
+	cursor:pointer;
+	height: auto;
+    vertical-align: middle;
+}
+.superbox-show {
+	text-align:center;
+	position:relative;
+	background:#fff;
+	box-shadow: none 0 0 0;
+	-webkit-box-shadow: none 0 0 0;
+	-moz-box-shadow: none 0 0 0;
+	width:100%;
+    float:left;
+	padding:25px;
+	display:none;
+}
+.superbox-description {
+	display: none;
+}
+.block {
+	display: inline-block;
+	text-align: right;
+}
+.superbox-current-img {
+	max-width:100%;
+	box-shadow: none 0 0 0;
+
+}
+.superbox-img:hover {
+	opacity:0.8;
+}
+.superbox-close {
+	opacity:0.7;
+	cursor:pointer;
+	position:absolute;
+	top:25px;
+	right:25px;
+	background:url(../../images/close.svg) no-repeat center center;
+	width:35px;
+	height:35px;
+
+}
+.superbox-close:hover {
+	opacity:1;
+}
+@media only screen and (min-width: 320px) {
+	.superbox-list {
+		width:50%;
+	}
+}
+@media only screen and (min-width: 486px) {
+	.superbox-list {
+		width:25%;
+	}
+}
+@media only screen and (min-width: 768px) {
+	.superbox-list {
+		width:16.66666667%;
+	}
+}
+/*@media only screen and (min-width: 1025px) {
+	.superbox-list {
+		width:12.5%;
+	}
+}*/
