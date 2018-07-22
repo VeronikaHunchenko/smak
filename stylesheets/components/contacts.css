@@ -1,2 +1,34 @@
- 
-
+.layout-contacts > .layout-item:first-child {
+	display: flex;
+	justify-content: center;
+}
+.grid-contacts {
+	display: flex;
+	padding-top: 50px;
+}
+.grid-contacts > .grid-item {
+	width: 33.33333%;
+}
+.card-contacts {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.contact-icon {
+	color: #ffe600;
+	font-size: 30px;
+}
+.contact-description {
+	font-size: 20px;
+	padding-top: 15px;
+}
+.contact-description > h6 {
+	margin-bottom: 20px;
+}
+.contact-description > a {
+	margin-top: 20px;
+}
+.contact-description > a:hover {
+	color: #131a1d;
+}

@@ -1,4 +1,150 @@
+.team {
+	position: relative;
+}
 .layout-team > .layout-item:first-child {
 	display: flex;
 	justify-content: center;
+}
+.team-nav {
+	display: flex;
+
+}
+.team-item {
+	padding: 10px 30px 40px 0;
+	cursor: pointer;
+}
+.team-item:last-child {
+	padding: 10px 0 40px 0;
+}
+.team-footer {
+	text-align: center;
+	background-color: #fff;
+	-webkit-box-shadow: 0 2px 0 0 #e1e6e6;
+	-moz-box-shadow: 0 2px 0 0 #e1e6e6;
+	box-shadow: 0 2px 0 0 #e1e6e6;
+	padding: 15px 0 15px 0;
+}
+.team-footer > h6 {
+	color: #ffe600;
+}
+.team-footer > p, h6 {
+	margin: 0;
+	font-weight: 400;
+}
+.content-item {
+	display: none;
+}
+.content-item.active {
+	display: block;
+}
+.team-content {
+	position: relative;
+}
+.tabs-background {
+	position: absolute;
+    background-color: var(--global-dark-background);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.tabs-foreground {
+	position: relative;
+    min-height: 300px;
+    display: flex;
+/*    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;*/
+}
+.content-item {
+	position: relative;
+	width: 100%;
+
+}
+
+.content-item::before {
+	content: '';
+	position: absolute;
+	top: -6%;
+	left: 9%;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 26px 18px 26px;
+	border-color: transparent transparent #131316 transparent;
+}
+.content-item::before {
+	content: '';
+	position: absolute;
+	top: -6%;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 26px 18px 26px;
+	border-color: transparent transparent #131316 transparent;
+}
+.content-item:nth-child(2)::before {
+	left: 35%;
+}
+.content-item:nth-child(3)::before {
+	left: 61%;
+}
+.content-item:nth-child(4)::before {
+	left: 87%;
+}
+.content-overlay {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 50px;
+}
+.content-body {
+	width: 768px;
+}
+.icon-overlay {
+	color: #fff;
+}
+.content-footer {
+	width: 768px;
+	display: flex;
+
+}
+.header-overlay {
+	display: flex;
+}
+.heading-overlay {
+	width: 90%;
+}
+.icon-overlay {
+	width: 10%;
+	text-align: right;
+	cursor: pointer;
+}
+.icon-overlay:hover {
+	color: #ffe600;
+}
+.icon-overlay:focus {
+	color: #ffe600;
+}
+.icon-overlay:active {
+	color: #ffe600;
+}
+.social-overlay {
+	width: 37px;
+	height: 37px;
+	border: 1px solid #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 25px;
+	color: #fff;
+}
+.social-overlay:hover {
+	color: #ffe600
+}
+.social-overlay:focus {
+	color: #ffe600
+}
+.social-overlay:active {
+	color: #ffe600
 }

@@ -9,7 +9,9 @@
   <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
   <!-- Style -->
   <link rel="stylesheet" href="images/icomoon/style.css">
-  <!-- Style superbox gallery -->
+  <!-- Style carousel -->
+  <link rel="stylesheet" href="libs/slick/slick/slick.css">
+  <link rel="stylesheet" href="libs/slick/slick/slick-theme.css">
   
 
 
@@ -479,25 +481,414 @@
       <!-- ********* END ABOUT *********-->
       <!-- ********* START TEAM *********-->
       <div class="team">
-        <div class="container">
-          <div class="layout layout-team">
+        
+          <div class="layout-team">
             <div class="layout-item">
-              <div class="heading">
-                <h4>THE TEAM</h4>
-                <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lect</p>
+              <div class="container">
+                <div class="heading">
+                  <h4>THE TEAM</h4>
+                  <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lect</p>
+                </div>
               </div>
+             
             </div>
                       
             <div class="layout-item">
+              
               <div class="tabs tabs-team">
+                <div class="container">
+                  <div class="team-nav">
+
+                    <div class="team-item active" data-tab-number="1"> 
+                      <div class="team-header">
+                        <img src="images/team.png" alt="">
+                      </div>
+                      <div class="team-footer">
+                        <h6 class="team-title">JOHN DOE</h6>
+                        <p class="team-subtitle">CREATIVE DIRECTOR</p>
+                      </div>
+                    </div>
+
+                    <div class="team-item" data-tab-number="2">
+                      <div class="team-header">
+                        <img src="images/team.png" alt="">
+                      </div>
+                      <div class="team-footer">
+                        <h6 class="team-title">JOHN DOE</h6>
+                        <p class="team-subtitle">CREATIVE DIRECTOR</p>
+                      </div>
+                    </div>  
+
+                    <div class="team-item" data-tab-number="3">
+                      <div class="team-header">
+                        <img src="images/team.png" alt="">
+                      </div>
+                      <div class="team-footer">
+                        <h6 class="team-title">JOHN DOE</h6>
+                        <p class="team-subtitle">CREATIVE DIRECTOR</p>
+                      </div>
+                    </div>  
+
+                    <div class="team-item" data-tab-number="4">
+                      <div class="team-header">
+                        <img src="images/team.png" alt="">
+                      </div>
+                      <div class="team-footer">
+                        <h6 class="team-title">JOHN DOE</h6>
+                        <p class="team-subtitle">CREATIVE DIRECTOR</p>
+                      </div>
+                    </div>    
+                  </div>
+                </div>
                 
+                
+                <div class="team-content">
+                  <div class="tabs-background"></div>
+                  <div class="container">
+                    <div class="tabs-foreground">
+
+                      <div class="content-item active" data-tab-number="1">
+                        <div class="content-overlay">
+                          <div class="content-body">
+                            <div class="header-overlay">
+                              <div class="heading-overlay">
+                                <h6 class="inverse-primary-heading">JOHN DOE</h6>
+                              </div>
+                              <div class="icon-overlay">
+                                <span class="icon-close"></span>
+                              </div>
+                            </div>
+                            <p class="inverse">Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta.</p>
+                          </div>
+                          <div class="content-footer">
+                            <a href="#" class="social-overlay">
+                              <span class="icon-facebook"></span>
+                            </a>
+                            <a href="#" class="social-overlay">
+                              <span class="icon-twitter"></span>
+                            </a> 
+                          </div>
+                        </div>
+                        
+                      </div>
+
+                      <div class="content-item" data-tab-number="2">
+                        <div class="content-overlay">
+                          <div class="content-body">
+                            <div class="header-overlay">
+                              <div class="heading-overlay">
+                                <h6 class="inverse-primary-heading">JOHN DOE</h6>
+                              </div>
+                              
+                              <div class="icon-overlay">
+                                <span class="icon-close"></span>
+                              </div>
+                            </div>
+                            <p class="inverse">Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta.</p>
+                          </div>
+                          <div class="content-footer">
+                            <a href="#" class="social-overlay">
+                              <span class="icon-facebook"></span>
+                            </a> 
+                            <a href="#" class="social-overlay">
+                              <span class="icon-twitter"></span>
+                            </a> 
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="content-item" data-tab-number="3">
+                        <div class="content-overlay">
+                          <div class="content-body">
+                            <div class="header-overlay">
+                              <div class="heading-overlay">
+                                <h6 class="inverse-primary-heading">JOHN DOE</h6>
+                              </div>
+                              <div class="icon-overlay">
+                                <span class="icon-close"></span>
+                              </div>
+                            </div>
+                            <p class="inverse">Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta.</p>
+                          </div>
+                          <div class="content-footer">
+                            <a href="#" class="social-overlay">
+                              <span class="icon-facebook"></span>
+                            </a> 
+                            <a href="#" class="social-overlay">
+                              <span class="icon-twitter"></span>
+                            </a> 
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="content-item" data-tab-number="4">
+                        <div class="content-overlay">
+                          <div class="content-body">
+                            <div class="header-overlay">
+                              <div class="heading-overlay">
+                                <h6 class="inverse-primary-heading">JOHN DOE</h6>
+                              </div>
+                              <div class="icon-overlay">
+                                <span class="icon-close"></span>
+                              </div>
+                            </div>
+                            <p class="inverse">Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta.</p>
+                          </div>
+                          <div class="content-footer">
+                            <a href="#" class="social-overlay">
+                              <span class="icon-facebook"></span>
+                            </a> 
+                            <a href="#" class="social-overlay">
+                              <span class="icon-twitter"></span>
+                            </a> 
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <!-- ********* END TEAM *********-->
+      <!-- ********* START SKILLS *********-->
+      <div class="skills inverse">
+        <div class="container">
+          <div class="layout layout-skills">
+            <div class="layout-item">
+              <div class="heading">
+                <h4 class="inverse-heading">SKILLS</h4>
+                <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere.</p>
+              </div>
+            </div>
+            <div class="layout-item">
+              <div class="skills-counter-overlay" id="counter2">
+                    <div class="skills-item">
+                      <div class="skills-round">
+                        <h3 class="inverse">
+                          <span class="count">90</span>
+                          <span>%</span>
+                        </h3>
+                      </div>
+                      <div class="skills-description">
+                        <h6 class="inverse-primary-heading">HTML&CSS</h6>
+                      </div>
+                      <!-- <div class="number-counter">
+                        <div class="chart chart" data-goal="1700" data-count="550">
+                          <div class="number-container">
+                            <svg class="number-background" x="0px" y="0px" height="220px" viewBox="0 0 220 220">
+                              <g>
+                                <path d="M110,210c-55.1,0-100-44.9-100-100C10,54.9,54.9,10,110,10s100,44.9,100,100C210,165.1,165.1,210,110,210z" />
+                              </g>
+                            </svg>
+
+                            <svg class="number-foreground" x="0px" y="0px" height="220px" viewBox="0 0 220 220">
+                              <g>
+                                <path d="M110,210c-55.1,0-100-44.9-100-100C10,54.9,54.9,10,110,10s100,44.9,100,100C210,165.1,165.1,210,110,210z" />
+                              </g>
+                            </svg>
+                          </div>
+                        </div>
+                      </div> -->
+                    </div> 
+                    <div class="skills-item">
+                      <div class="skills-round">
+                        <h3 class="inverse">
+                          <span class="count">96</span>
+                          <span>%</span>
+                        </h3>
+                      </div>
+                      <div class="skills-description">
+                        <h6 class="inverse-primary-heading">AI & PS</h6>
+                      </div>
+                    </div> 
+                    <div class="skills-item">
+                      <div class="skills-round">
+                        <h3 class="inverse">
+                          <span class="count">85</span>
+                          <span>%</span>
+                        </h3>
+                      </div>
+                      <div class="skills-description">
+                        <h6 class="inverse-primary-heading">JS & PHP</h6>
+                      </div>
+                    </div> 
+                    <div class="skills-item">
+                      <div class="skills-round">
+                        <h3 class="inverse">
+                          <span class="count">94</span>
+                          <span>%</span>
+                        </h3>
+                      </div>
+                      <div class="skills-description">
+                        <h6 class="inverse-primary-heading">PHOTOGRAPHY</h6>
+                      </div>
+                    </div>  
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ********* END SKILLS *********-->
+      <!-- ********* START CLIENTS *********-->
+      <div class="clients">
+        <div class="container">
+          <div class="layout layout-clients">
+            <div class="layout-item">
+              <div class="heading">
+                <p>OUR CLIENTS</p>
+                <h4 >WHO LOVE TO WORK WITH US</h4>
+                <hr class="separator">
+                <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Praesent sapien massa, convallis a pellen tesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta.</p>
+              </div>
+            </div>
+            <div class="layout-item">
+              <div class="carousel clients-carousel" id="carousel">
+                <div class="slide clients-slide">
+                  <div class="clients-logo">
+                    <span class="icon-1"></span>
+                  </div>
+                </div>
+                <div class="slide clients-slide">
+                  <div class="clients-logo">
+                    <span class="icon-2"></span>
+                  </div>
+                </div>
+                <div class="slide clients-slide">
+                  <div class="clients-logo">
+                    <span class="icon-3"></span>
+                  </div>
+                </div>
+                <div class="slide clients-slide">
+                  <div class="clients-logo">
+                    <span class="icon-4"></span>
+                  </div>
+                </div>
+                <div class="slide clients-slide">
+                  <div class="clients-logo">
+                    <span class="icon-5"></span>
+                  </div>
+                </div>
+                <div class="slide clients-slide">
+                  <div class="clients-logo">
+                    <span class="icon-1"></span>
+                  </div>
+                </div>
+                <div class="slide clients-slide">
+                  <div class="clients-logo">
+                    <span class="icon-2"></span>
+                  </div>
+                </div>
+                <div class="slide clients-slide">
+                  <div class="clients-logo">
+                    <span class="icon-3"></span>
+                  </div>
+                </div>
+                <div class="slide clients-slide">
+                  <div class="clients-logo">
+                    <span class="icon-4"></span>
+                  </div>
+                </div>
+                <div class="slide clients-slide">
+                  <div class="clients-logo">
+                    <span class="icon-5"></span>
+                  </div>
+                </div>
+              </div>  
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ********* END CLIENTS *********-->
+      <!-- ********* START BLOCKQUOTE *********-->
+      <div class="blockquote">
+        <div class="container">
+          <div class="layout layout-blockquote">
+            <div class="layout-item">
+              <div class="blockquote-carousel" id="carousel">
+                <div class="slide blockquote-slide">
+                  <div class="blockquote-overlay">
+                    <h6 class="inverse-heading">“An image is not simply a trademark, a design, a slogan or an easily remembered picture. It is a studiously crafted personality profile of an individual, institution,corporation, product or service”</h6>
+                    <hr class="separator">
+                    <p class="inverse">Daniel J. Boorstin</p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="blockquote-overlay">
+                    <h6 class="inverse-heading">“An image is not simply a trademark, a design, a slogan or an easily remembered picture. It is a studiously crafted personality profile of an individual, institution,corporation, product or service”</h6>
+                    <hr class="separator">
+                    <p class="inverse">Daniel J. Boorstin</p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="blockquote-overlay">
+                    <h6 class="inverse-heading">“An image is not simply a trademark, a design, a slogan or an easily remembered picture. It is a studiously crafted personality profile of an individual, institution,corporation, product or service”</h6>
+                    <hr class="separator">
+                    <p class="inverse">Daniel J. Boorstin</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        
       </div>
-      <!-- ********* END TEAM *********-->
+      <!-- ********* END BLOCKQUOTE *********-->
+      <!-- ********* START CONTACTS *********-->
+      <section class="contacts">
+        <div class="container">
+          <div class="layout layout-contacts">
+            <div class="layout-item">
+              <div class="heading">
+                <p>CONTACT US</p>
+                <h4>WHERE YOU CAN FIND US</h4>
+                <hr class="separator">
+                <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Praesent sapien massa, convallis a pellen tesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta.</p>
+              </div>
+            </div>
+            <div class="layout-item">
+              <div class="grid grid-contacts">
+                <div class="grid-item">
+                  <div class="card-contacts">
+                    <div class="contact-icon">
+                      <span class="icon-home"></span>
+                    </div>
+                    <div class="contact-description">
+                      <h6>OUR ADDRESS</h6>
+                      <a href="#" class="contact">214 Awesome Street,NY</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-item">
+                  <div class="card-contacts">
+                    <div class="contact-icon">
+                      <span class="icon-comment"></span>
+                    </div>
+                    <div class="contact-description">
+                      <h6>OUR MAIL</h6>
+                      <a href="#" class="contact">awesomemail@ourmail.com</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-item">
+                  <div class="card-contacts">
+                    <div class="contact-icon">
+                      <span class="icon-phone"></span>
+                    </div>
+                    <div class="contact-description">
+                      <h6>OUR PHONE</h6>
+                      <a href="#" class="contact">(0) 123-456-789-00</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ********* END CONTACTS *********-->
+      <!-- ********* START CONTACTS *********-->
+      <!-- ********* END CONTACTS *********-->
 
     </main>
 
@@ -517,15 +908,24 @@
 
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
+<!-- superbox -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="./js/script-superbox.js"></script>
 <script src="./js/superbox.js"></script>
 
-
+<!-- counter -->
 <script src="https://cdn.jsdelivr.net/jquery.inview/0.2/jquery.inview.min.js"></script>
 <script src="./js/counter.js"></script>
 
+<!-- tabs -->
 <script src="./js/tabs.js"></script>
+
+<!-- carousel -->
+<script src="libs/slick/slick/slick.min.js"></script>
+<script src="./js/carousel.js"></script>
+
+
+
 </body>
 
 </html>

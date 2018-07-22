@@ -1,0 +1,48 @@
+.blockquote {
+	background-color: var(--global-dark-background);
+}
+.layout-blockquote > .layout-item {
+	display: flex;
+	justify-content: center;
+}
+.blockquote-carousel {
+	width: 560px;
+	text-align: center;
+}
+.blockquote-carousel > .slide {
+
+}
+#carousel .slick-dots {
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+#carousel .slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+#carousel .slick-dots li button:before {
+    width: 5px;
+    height: 5px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    content: '';
+    opacity: 1;
+}
+
+#carousel .slick-dots li button:hover:before {
+    border: 1px solid #ffe600;
+    background-color: #ffe600;
+
+}
