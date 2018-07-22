@@ -32,4 +32,5 @@
 .counter-item > p {
 	color: #ffe600;
 	font-weight: 400;
+	font-family: inherit;
 }
