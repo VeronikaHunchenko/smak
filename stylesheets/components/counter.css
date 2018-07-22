@@ -34,6 +34,6 @@
 	font-weight: 400;
 	font-family: inherit;
 }
-#grid-counter>#counter>.counter-item>p{
+#counter {
 	font-family: Oswald;
 }
