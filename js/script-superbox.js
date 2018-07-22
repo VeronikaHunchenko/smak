@@ -38,6 +38,12 @@
 					superbox.insertAfter(this).css('display', 'block');
 				}
 
+				if ($(this).next().find('.superbox-description')) {
+					('.superbox-description').insertAfter(this).css('display', 'block');
+				} else {
+					('.superbox-description').insertAfter(this).css('display', 'none');;
+				}
+
 
 				$('html, body').animate({
 					scrollTop:superbox.position().top - currentimg.width()

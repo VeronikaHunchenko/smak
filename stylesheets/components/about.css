@@ -1,0 +1,37 @@
+.about {
+	background-color: #fff;
+}
+.layout-about > .layout-item:first-child {
+	display: flex;
+	justify-content: center;
+}
+.grid-about {
+	display: flex;
+}
+.grid-about > .grid-item {
+	padding-top: 70px;
+}
+.grid-about > .grid-item:first-child {
+	padding-right: 30px;
+}
+.card-about {
+	display: flex;
+
+}
+.about-icon-section {
+	font-size: 35px;
+	color: #fff;
+	border: 1px solid #ffe600;
+	border-radius: 50%;
+	min-width: 70px;
+	height: 70px;
+	background-color: #ffe600;
+	margin-right: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.about-description-section > p:first-child {
+	font-weight: 400;
+}

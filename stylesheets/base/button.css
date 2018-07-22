@@ -5,7 +5,7 @@
   --button-font-family: inherit;
   --button-font-size: 20px;
   --button-font-size-small: 15px;
-  --button-font-weight: 700;
+  --button-font-weight: 500;
   --button-padding: 13px 35px;
   --button-padding-big: 13px 45px;
   --button-height: var(--global-control-height);
@@ -119,7 +119,8 @@ input[type="submit"],
   padding: var(--button-padding-big);
 }
 .button-scroll {
-  padding: 23px 22px;
+  padding: 13px 19px;
+  font-size: 35px;
 }
 .button-scroll:hover {
   background: var(--button-scroll-background-hover);

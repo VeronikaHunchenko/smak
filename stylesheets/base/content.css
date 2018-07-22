@@ -421,5 +421,12 @@ textarea {
   color: #fff;
 }
 .inverse-heading  {
+  color: #fff;
+}
+.inverse-primary-heading  {
   color: #ffe600;
+}
+.heading-bottom {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }

@@ -1,0 +1,4 @@
+.layout-team > .layout-item:first-child {
+	display: flex;
+	justify-content: center;
+}
