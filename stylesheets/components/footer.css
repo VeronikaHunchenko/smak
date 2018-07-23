@@ -1,0 +1,22 @@
+.footer {
+	background-color: var(--global-dark-background);
+}
+.layout-footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px
+}
+.footer-icons {
+	display: flex;
+
+}
+.icon-overlay {
+	padding: 10px;
+	margin: 10px;
+
+}
+.icon-overlay:last-child {
+	padding-right: 0;
+	margin-right: 0;
+}

@@ -40,7 +40,7 @@ input[type="button"],
 input[type="submit"],
 .button, 
 .button-inverse,
-.button-big, 
+.button-large, 
 .button-scroll {
   margin: 0;
   position: relative;
@@ -115,8 +115,9 @@ input[type="submit"],
   background: var(--button-inverse-background-hover);
   color: var(--button-inverse-color-hover);
 }
-.button-big {
+.button-large {
   padding: var(--button-padding-big);
+  font-weight: 700;
 }
 .button-scroll {
   padding: 13px 19px;
@@ -133,4 +134,8 @@ input[type="submit"],
 .button-scroll:active {
   background: var(--button-scroll-background-hover);
   color: var(--button-scroll-color-hover);
+}
+.button-inverse-scroll:hover {
+  background: var(--global-secondary-background);
+  color: #fff;
 }

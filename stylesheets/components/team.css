@@ -10,11 +10,14 @@
 
 }
 .team-item {
-	padding: 10px 30px 40px 0;
+	margin: 10px 30px 40px 0;
 	cursor: pointer;
 }
 .team-item:last-child {
-	padding: 10px 0 40px 0;
+	margin: 10px 0 40px 0;
+}
+.team-item:hover .team-header{
+	opacity: 0.7;
 }
 .team-footer {
 	text-align: center;

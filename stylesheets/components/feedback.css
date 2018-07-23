@@ -1,2 +1,29 @@
- 
+ .feedback {
+ 	background-color: var(--global-secondary-background);
+ }
+.layout-feedback .layout-item:first-child {
+	display: flex;
+	justify-content: center;
+}
 
+.feedback-form {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 30px;
+}
+.fieldset-overlay {
+	display: flex;
+	width: 100%;
+}
+.input-overlay {
+	width: 33.33333%;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+.input-overlay:last-child {
+	margin-right: 0;
+}
+.button-overlay {
+	display: flex;
+	justify-content: center;
+}

@@ -3,7 +3,7 @@
   --form-line-height:                              1.4;
   --form-padding:                                  13px 20px;
 
-  --form-background:                               #131a1d;
+  --form-background:                               var(--global-secondary-background);
   --form-color:                                    #ffffff;
 
   --form-focus-background:                         #303d43;
@@ -45,8 +45,8 @@
   --form-range-thumb-background:                   var(--global-color);
 
   --form-range-track-height:                       3px;
-  --form-range-track-background:                   var(--global-muted-background);
-  --form-range-track-focus-background:             var(--global-muted-background);
+  --form-range-track-background:                   var(--global-secondary-background);
+  --form-range-track-focus-background:             var(--global-secondary-background);
 
   --internal-form-select-image:                    url('data:image/svg+xml;utf8,<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 24 16" fill="black"><path d="M12 1l-3 5h6z"></path><path d="M12 13l-3-5h6z"></path></svg>');
   --internal-form-radio-image:                     url('data:image/svg+xml;utf8,<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="black"><path d="M10 8c0 1.105-0.895 2-2 2s-2-0.895-2-2c0-1.105 0.895-2 2-2s2 0.895 2 2z"></path></svg>');
@@ -157,7 +157,7 @@ select {
   padding: var(--form-padding);
   min-height: var(--form-height);
   background: var(--form-background);
-  border: none;
+  border: 1px solid #fff;
   color: var(--form-color);
   box-shadow: 0 0 0 0 transparent inset;
   border-radius: 0;
