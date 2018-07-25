@@ -46,3 +46,13 @@
     background-color: #ffe600;
 
 }
+#carousel .slick-dots li button:active:before {
+    border: 1px solid #ffe600;
+    background-color: #ffe600;
+
+}
+#carousel .slick-dots li button:focus:before {
+    border: 1px solid #ffe600;
+    background-color: #ffe600;
+
+}

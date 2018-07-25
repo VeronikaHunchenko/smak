@@ -11,6 +11,7 @@
 }
 .logo > a {
 	display: block;
+
 }
 .navbar-nav {
 	display: inline-flex;
@@ -27,76 +28,16 @@
 	height: 5px;
 	background-color: #ffe600;
 	top: 5%;
-
-
+}
+.navbar-nav > li > a {
+  padding: 10px;
 }
 
 @media screen and (max-width: 950px) {
 	.navbar-nav {
 		display: none;
 	}
-.nav {
-  background: #2c3e50;
-  position: relative;
-  z-index: 1000;
-}
 
-/* line 13, C:/Users/Shubham/Desktop/test/sass/app.sass */
-.nav .logo i {
-  color: white;
-  font-size: 1.5rem;
-  padding: 10px;
-}
-
-/* line 17, C:/Users/Shubham/Desktop/test/sass/app.sass */
-.nav .logo i:hover {
-  color: #e74c3c;
-  transition: color 0.3s;
-}
-
-/* line 24, C:/Users/Shubham/Desktop/test/sass/app.sass */
-.nav .main-nav .hamburger-nav::after {
-  font-family: fontawesome;
-  content: "\f0c9";
-  color: #fafafa;
-  font-size: 1.5rem;
-  position: absolute;
-  top: 11px;
-  right: 20px;
-  cursor: pointer;
-}
-
-/* line 34, C:/Users/Shubham/Desktop/test/sass/app.sass */
-.nav .main-nav .menu {
-  display: none;
-  list-style: none;
-  position: absolute;
-  top: 64%;
-  padding-left: 0;
-  width: 100%;
-  overflow: hidden;
-}
-
-/* line 42, C:/Users/Shubham/Desktop/test/sass/app.sass */
-.nav .main-nav .menu a {
-  display: block;
-  background: #e74c3c;
-  text-decoration: none;
-  text-align: center;
-  padding: 20px;
-  border-bottom: 0.5px solid rgba(200, 200, 200, 0.2);
-}
-
-/* line 50, C:/Users/Shubham/Desktop/test/sass/app.sass */
-.nav .main-nav .menu a:hover {
-  background: white;
-  transition: background 0.3s ease;
-}
-
-.nav .main-nav .menu a li {
-  color: white;
-
-}
 
 
 }

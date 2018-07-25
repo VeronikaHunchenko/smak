@@ -63,6 +63,7 @@ input[type="submit"],
   text-decoration: none;
   background: var(--button-background);
   color: var(--button-color);
+  cursor: pointer;
 }
 
 .button:not(:disabled) {
