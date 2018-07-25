@@ -1,10 +1,4 @@
-(function() {
-    
-    $.fatNav();
-    
-}());
-
-  var _gaq = _gaq || [];
+var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-36251023-1']);
   _gaq.push(['_setDomainName', 'jqueryscript.net']);
   _gaq.push(['_trackPageview']);

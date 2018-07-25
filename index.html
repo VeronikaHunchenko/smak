@@ -13,9 +13,12 @@
   <link rel="stylesheet" href="libs/slick/slick/slick.css">
   <link rel="stylesheet" href="libs/slick/slick/slick-theme.css">
 
-  <!-- Burger -->
-  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   
+  <!-- Style google galery -->
+  <link rel="stylesheet" href="stylesheets/google-gallery.css">
+  <!-- Burger -->
+  <link href="stylesheets/jquery.fatNav.css" rel="stylesheet" type="text/css">
+
 
 
   <title>Smak</title>
@@ -75,6 +78,21 @@
               </ul>
             </nav>
           </div>
+
+          <div class="fat-nav">
+            <div class="fat-nav__wrapper">
+              <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">WORK</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CLIENTS</a></li>
+                <li><a href="#">CONTACT</a></li>
+                
+              </ul>
+            </div>
+          </div>
+
         </div>
       </div>
       
@@ -480,7 +498,7 @@
               </div>
             </div>
             <div class="layout-item">
-              <div class="grid grid-counter" id="grid-counter">
+              <div class="grid grid-counter" >
                 
                   <div class="counter-overlay" id="counter">
                     <div class="counter-item">
@@ -493,7 +511,7 @@
                     <div class="counter-item">
                       <h2 class="inverse">
                         <span class="count">3200</span>
-                      </h2>
+                      </h2> 
                       
                       <p>COMPLETED PROJECTS</p>
                     </div> 
@@ -763,63 +781,30 @@
               </div>
             </div>
             <div class="layout-item">
-              <div class="skills-counter-overlay" id="counter2">
+              <div class="skills-counter-overlay" > <!-- id="counter2" -->
                     <div class="skills-item">
-                      <div class="skills-round">
-                        <h3 class="inverse">
-                          <span class="count">90</span>
-                          <span>%</span>
-                        </h3>
+                      <div class="skills-circle" id="container">
                       </div>
                       <div class="skills-description">
                         <h6 class="inverse-primary-heading">HTML&CSS</h6>
                       </div>
-                      <!-- <div class="number-counter">
-                        <div class="chart chart" data-goal="1700" data-count="550">
-                          <div class="number-container">
-                            <svg class="number-background" x="0px" y="0px" height="220px" viewBox="0 0 220 220">
-                              <g>
-                                <path d="M110,210c-55.1,0-100-44.9-100-100C10,54.9,54.9,10,110,10s100,44.9,100,100C210,165.1,165.1,210,110,210z" />
-                              </g>
-                            </svg>
-
-                            <svg class="number-foreground" x="0px" y="0px" height="220px" viewBox="0 0 220 220">
-                              <g>
-                                <path d="M110,210c-55.1,0-100-44.9-100-100C10,54.9,54.9,10,110,10s100,44.9,100,100C210,165.1,165.1,210,110,210z" />
-                              </g>
-                            </svg>
-                          </div>
-                        </div>
-                      </div> -->
                     </div> 
                     <div class="skills-item">
-                      <div class="skills-round">
-                        <h3 class="inverse">
-                          <span class="count">96</span>
-                          <span>%</span>
-                        </h3>
+                      <div class="skills-circle" id="container_2">
                       </div>
                       <div class="skills-description">
                         <h6 class="inverse-primary-heading">AI & PS</h6>
                       </div>
                     </div> 
                     <div class="skills-item">
-                      <div class="skills-round">
-                        <h3 class="inverse">
-                          <span class="count">85</span>
-                          <span>%</span>
-                        </h3>
+                      <div class="skills-circle" id="container_3">
                       </div>
                       <div class="skills-description">
                         <h6 class="inverse-primary-heading">JS & PHP</h6>
                       </div>
                     </div> 
                     <div class="skills-item">
-                      <div class="skills-round">
-                        <h3 class="inverse">
-                          <span class="count">94</span>
-                          <span>%</span>
-                        </h3>
+                      <div class="skills-circle" id="container_4">
                       </div>
                       <div class="skills-description">
                         <h6 class="inverse-primary-heading">PHOTOGRAPHY</h6>
@@ -828,6 +813,14 @@
                   </div>
             </div>
           </div>
+
+
+
+          
+          
+          
+             
+
         </div>
       </section>
       <!-- ********* END SKILLS *********-->
@@ -1067,14 +1060,41 @@
 
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- burger -->
+<div class="jquery-script-ads" align="center"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+<script src="./js/jquery.fatNav.js"></script> 
+<script src="./js/burger.js"></script>
+
 <!-- superbox -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 <script src="./js/script-superbox.js"></script>
 <script src="./js/superbox.js"></script>
+
+<!-- google gallery -->
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="./js/google-gallery.min.js"></script>
+<script src="./js/google-gallery-2.js"></script>
 
 <!-- counter -->
 <script src="https://cdn.jsdelivr.net/jquery.inview/0.2/jquery.inview.min.js"></script>
 <script src="./js/counter.js"></script>
+
+
+<!-- circle counter -->
+<script src="http://progressbarjs.readthedocs.org/en/1.0.0"></script>
+<script src="./node/progressbar.js/dist/progressbar.min.js"></script>
+<script src="js/counter/circle2.js"></script>
+<script src="js/counter/circle.js"></script>
 
 <!-- tabs -->
 <script src="./js/tabs.js"></script>
@@ -1082,12 +1102,6 @@
 <!-- carousel -->
 <script src="libs/slick/slick/slick.min.js"></script>
 <script src="./js/carousel.js"></script>
-
-<!-- burger -->
-<script type="text/javascript"
-src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script></div>
-<script src="./js/burger.js"></script>
 
 
 </body>

@@ -3,9 +3,9 @@
     overflow: hidden;
 } 
 .hero-background {
-/*    background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;*/
+    background-position: 50% 50%;
     position: absolute;
     background-color: var(--global-primary-background);
     left: 0;
@@ -15,7 +15,7 @@
 }
 .hero-foreground {
     position: relative;
-    min-height: 730px;
+    min-height: calc(100vh - 94px);
     display: flex;
     flex-direction: column;
     align-items: flex-start;

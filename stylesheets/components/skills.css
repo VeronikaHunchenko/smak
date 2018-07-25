@@ -38,3 +38,14 @@
 .skills-description {
 	padding-top: 25px;
 }
+#container,
+#container_2,
+#container_3,
+#container_4 {
+
+  margin: 20px;
+  width: 144px;
+  height: 144px;
+  position: relative;
+
+}
