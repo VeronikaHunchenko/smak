@@ -23,7 +23,6 @@
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
-
 }
 .skills-round {
 	width: 144px;
@@ -48,4 +47,19 @@
   height: 144px;
   position: relative;
 
+}
+@media only screen and (max-width: 768px) {
+	.skills-counter-overlay {
+		flex-wrap: wrap;
+	}
+	.skills-item {
+		width: 50%;
+		
+	}
+}
+@media only screen and (max-width: 486px) {
+	.skills-item {
+		width: 100%;
+		
+	}
 }

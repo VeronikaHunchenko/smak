@@ -27,21 +27,15 @@
 	height: 5px;
 	background-color: #ffe600;
 	top: 5%;
-
-
 }
 
 @media screen and (max-width: 950px) {
 	.navbar-nav {
 		display: none;
 	}
-  .nav {
-    background: #2c3e50;
-    position: relative;
-    z-index: 1000;
-  }
-
-  
-  
-
+  	.nav {
+	    background: #2c3e50;
+	    position: relative;
+	    z-index: 1000;
+	  }
 }

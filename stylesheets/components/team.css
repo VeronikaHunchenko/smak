@@ -114,7 +114,6 @@
 .content-footer {
 	width: 768px;
 	display: flex;
-
 }
 .header-overlay {
 	display: flex;
@@ -154,4 +153,14 @@
 }
 .social-overlay:active {
 	color: #ffe600
+}
+
+@media screen and (max-width: 950px) {
+	.content-body {
+		width: 100%;
+	}	
+	.content-footer {
+		width: 100%;
+		margin-bottom: 20px;
+	}	
 }

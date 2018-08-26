@@ -66,3 +66,28 @@
 	background-repeat: no-repeat;
 	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="18" height="30" viewBox="0 0 18 30"><path fill="#fff" d="M10.497 23.036c0 0.134-0.067 0.285-0.167 0.385l-0.837 0.837c-0.1 0.1-0.251 0.167-0.385 0.167s-0.285-0.067-0.385-0.167l-7.801-7.801c-0.1-0.1-0.167-0.251-0.167-0.385s0.067-0.285 0.167-0.385l7.801-7.801c0.1-0.1 0.251-0.167 0.385-0.167s0.285 0.067 0.385 0.167l0.837 0.837c0.1 0.1 0.167 0.251 0.167 0.385s-0.067 0.285-0.167 0.385l-6.579 6.579 6.579 6.579c0.1 0.1 0.167 0.251 0.167 0.385zM16.925 23.036c0 0.134-0.067 0.285-0.167 0.385l-0.837 0.837c-0.1 0.1-0.251 0.167-0.385 0.167s-0.285-0.067-0.385-0.167l-7.801-7.801c-0.1-0.1-0.167-0.251-0.167-0.385s0.067-0.285 0.167-0.385l7.801-7.801c0.1-0.1 0.251-0.167 0.385-0.167s0.285 0.067 0.385 0.167l0.837 0.837c0.1 0.1 0.167 0.251 0.167 0.385s-0.067 0.285-0.167 0.385l-6.579 6.579 6.579 6.579c0.1 0.1 0.167 0.251 0.167 0.385z"></path></svg>');
 }
+@media only screen and (max-width: 1200px) {
+	#carousel .slick-next {
+		margin-right: 37%;
+	}
+	#carousel .slick-prev {
+		margin-left: 37%;
+	}
+}
+@media only screen and (max-width: 1025px) {
+	.clients-slide {
+		margin-right: 30px;
+		margin-left: 30px;
+	}
+	.clients-slide {
+		
+	}
+}
+@media only screen and (max-width: 768px) {
+	#carousel .slick-next {
+		margin-right: 37%;
+	}
+	#carousel .slick-prev {
+		margin-left: 37%;
+	}
+}

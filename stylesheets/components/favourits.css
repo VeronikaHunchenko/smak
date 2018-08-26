@@ -31,7 +31,6 @@
 .card-favourits {
 	display: inline-flex;
 	align-items: center;
-	justify-content: center;
 	flex-direction: column;
 	text-align: center;
 }
@@ -72,4 +71,18 @@
 }
 .favourits-card-icon:active > span {
 	color: #ffe600;
+}
+@media screen and (max-width: 950px) {
+	.grid-favourits {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.grid-favourits > .grid-item {
+		width: 50%;
+		padding-right: 20px;
+	}
+	.grid-favourits > .grid-item:last-child {
+		padding-right: 20px;
+	}
+	
 }

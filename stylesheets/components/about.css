@@ -35,3 +35,16 @@
 .about-description-section > p:first-child {
 	font-weight: 400;
 }
+@media screen and (max-width: 950px) {
+	.grid-about {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.grid-about > .grid-item {
+		width: 100%;
+	}
+	.grid-about > .grid-item:last-child {
+		padding-top: 0;
+	}
+		
+}
