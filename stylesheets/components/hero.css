@@ -8,6 +8,7 @@
     background-position: 50% 50%;
     position: absolute;
     background-color: var(--global-primary-background);
+    background-image: url(/images/backgr-img.jpg);
     left: 0;
     right: 0;
     top: 0;
