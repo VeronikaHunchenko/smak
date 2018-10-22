@@ -25,6 +25,9 @@
 	background-color: var(--global-secondary-background);
     width: 100%;
     opacity: 0.8;
+    min-height: 400px;
+    position: absolute;
+    top: 17%;
 }
 .layout-foreground {
     display: flex;

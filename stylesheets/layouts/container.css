@@ -20,6 +20,9 @@
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
+  height: calc(100vh - 94px);
+  display: flex;
 }
 .container-big {
   max-width: 1920px;
