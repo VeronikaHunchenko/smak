@@ -25,3 +25,22 @@
 .performance-card-icon {
 	font-size: 40px;
 }
+@media screen and (max-width: 950px) {
+	.grid-performance {
+		flex-wrap: wrap;
+	}
+	.grid-performance > .grid-item {
+		width: 33.3333333%;
+	}
+	.grid-performance > .grid-item {
+		padding-right: 20px;
+	}
+	.grid-performance > .grid-item:last-child {
+		padding-right: 20px;
+	}
+}
+@media screen and (max-width: 321px) {
+	.grid-performance > .grid-item {
+		width: 50%;
+	}
+}

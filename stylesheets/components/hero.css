@@ -8,7 +8,6 @@
     background-position: 50% 50%;
     position: absolute;
     background-color: var(--global-primary-background);
-    background-image: url(/images/backgr-img.jpg);
     left: 0;
     right: 0;
     top: 0;
@@ -24,15 +23,48 @@
 }
 .hero-overlay {
 	background-color: var(--global-secondary-background);
-	width: 100%;
+    width: 100%;
+    opacity: 0.8;
+}
+.layout-foreground {
+    display: flex;
+    align-items: center;
 }
 .layout-foreground > .layout-item {
 	text-align: center;
-	margin: 60px 0;
+    min-width: 100%;
+	min-height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 } 
 .hero-button-scroll {
 	position: absolute;
 	bottom: 0;
-    right: 48%;
+    right: 47%;
 
+}
+@media screen and (max-width: 950px) {
+    h1 {
+        font-size: 40px;
+    }
+    h4 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 14px;
+    }
+    button {
+        font-size: 12px;
+    }
+    .hero-button-scro6l {
+        right: 50%;
+    }
+    
+}
+@media screen and (max-width: 610px) {
+    .hero-button-scroll {
+        right: 43%;
+    }
 }
